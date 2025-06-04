@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(96,148,211,1) 100%);
+        }
+        .container{
+            display: flex;
+            margin-top: 10%;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            
+            height: 60px;
+            width: 200px;
+            border-radius: 2rem;
+            font-size: 1.2rem;
+            color: white;
+            background: #716a6a;   
+            background: -webkit-linear-gradient(to right, #6d8fb9, #525252);   
+            background: linear-gradient(to right, #324357, #b3a2a2);  
+
+        }
+        #image{
+            height: 300px;
+            width: 200px;
+        }
+        .button{
+            display: flex;
+            margin-top: 2rem;
+           justify-content: center;
+           gap:0.7rem;
+        }
+
+    </style>
+
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <img id="image" src="1.png" alt="">
+           
+       
+    </div>
+    <div class="button">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="restart">Restart</button>
+        <button id="next">Next Songs</button>
+        <button id="prev">Previous Songs</button>
+    </div> 
+    <script src="Play_Audio.js" >
+      
+    </script>
+</body>
+</html>
